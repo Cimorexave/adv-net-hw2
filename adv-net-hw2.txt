@@ -1,0 +1,20 @@
+Sina Sadeqi
+Student Number: 401725101
+
+1) Corresponding files are appended
+
+2) P7
+Time needed to find the ip address = rtt1 + rtt2 + rtt3 + ... + rttn
+then when the ip address is found there is the time needed to create the tcp connection = rtt0
+and the time needed to request and receive the response = rtt0
+so the final amount of time is: 
+rtt1 + rtt2 + rtt3 + ... + rttn + 2*rtt0
+
+3) P21
+yeah, you can kind of do this. if you use the "dig" command it will return the amount of time required 
+to the query in the dns server. if the website has been accessed recently it will be cached in the 
+dns server and therefore your query time will be 0.
+
+4) P27
+A)by 1 to 1 matching of audio and video version we'll have n files
+B)2n files
